@@ -10,6 +10,7 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -204,7 +205,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.8rem;
-  color: var(--second-color);
+  color: var(--second-color); 
 }
 .home__social-icon:hover {
   color: var(--first-color);
@@ -356,6 +357,7 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
+  opacity: 0.9;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
@@ -375,6 +377,14 @@ img {
 }
 .footer__copy {
   font-size: var(--smaller-font-size);
+}
+.footer__social-iconn{
+  /* color: hsl(var(--hue-color), 89%, 60%); */
+  color: hsl(0, 0%, 100%);
+
+}
+.footer__social-icon:hover {
+  color: var(--first-color);
 }
 
 /* ===== MEDIA QUERIES=====*/
