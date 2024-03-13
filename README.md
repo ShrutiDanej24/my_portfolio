@@ -17,13 +17,10 @@ Adds dynamic animations to certain elements for enhanced user experience.
 ## Technologies Used
 #### HTML: 
 Markup language for creating the structure of the web pages.
-
 #### CSS: 
 Stylesheet language for styling the elements and layout of the website.
-
 #### Javascript:
 Adds interactivity and functionality to the website.
-
 #### ScrollReveal: 
 JavaScript library for scroll animations.
 
